@@ -10,6 +10,12 @@
 		06CB8C91A0C0D4D11B7DA68D /* Pods_StoryboardContactTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 985078047C310D6B1FC74F91 /* Pods_StoryboardContactTests.framework */; };
 		A00BFBE523C77391480B1335 /* Pods_StoryboardContact_StoryboardContactUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F29416CD7D1875D4C177EE7 /* Pods_StoryboardContact_StoryboardContactUITests.framework */; };
 		BECD54EA68D1D1EC83B2F21D /* Pods_StoryboardContact.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A370BE2E171F60CFE9482C8C /* Pods_StoryboardContact.framework */; };
+		F3082A222754D31300332177 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D2B2562732E62000A34952 /* Network.swift */; };
+		F3082A232754D31400332177 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D2B2562732E62000A34952 /* Network.swift */; };
+		F3082A242754D32E00332177 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3151D6C27325B42005E278D /* Contact.swift */; };
+		F3082A252754D32E00332177 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3151D6C27325B42005E278D /* Contact.swift */; };
+		F3082A262754D33400332177 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3151D6E27325EA6005E278D /* ContactTableViewCell.swift */; };
+		F3082A272754D33500332177 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3151D6E27325EA6005E278D /* ContactTableViewCell.swift */; };
 		F3151D2B27323ECC005E278D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3151D2A27323ECC005E278D /* AppDelegate.swift */; };
 		F3151D2D27323ECC005E278D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3151D2C27323ECC005E278D /* SceneDelegate.swift */; };
 		F3151D3227323ECC005E278D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3151D3027323ECC005E278D /* Main.storyboard */; };
@@ -556,6 +562,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3082A272754D33500332177 /* ContactTableViewCell.swift in Sources */,
+				F3082A252754D32E00332177 /* Contact.swift in Sources */,
+				F3082A232754D31400332177 /* Network.swift in Sources */,
 				F3151D4227323ED5005E278D /* StoryboardContactTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -564,8 +573,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3082A242754D32E00332177 /* Contact.swift in Sources */,
+				F3082A262754D33400332177 /* ContactTableViewCell.swift in Sources */,
 				F3151D4E27323ED5005E278D /* StoryboardContactUITestsLaunchTests.swift in Sources */,
 				F3151D4C27323ED5005E278D /* StoryboardContactUITests.swift in Sources */,
+				F3082A222754D31300332177 /* Network.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
